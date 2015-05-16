@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="姓名：">
+        </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="24dp"
+        android:id="@+id/username"
+        android:paddingTop="4dp"
+        android:gravity="left">
+        </TextView>
+        </LinearLayout>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="学院："
+        android:textSize="24dp"
+        android:gravity="center">
+        </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="24dp"
+        android:id="@+id/usercollege"
+        android:paddingTop="4dp"
+        android:gravity="left">"
+        </TextView>
+            </LinearLayout>
+<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="失效日期："
+        android:textSize="24dp"
+        android:gravity="center">
+        </TextView>
+ 	<TextView
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+ 	    android:textSize="24dp"
+ 	    android:paddingTop="4dp"
+ 	    android:gravity="left"
+ 	    android:id="@+id/userdate">
+ 	    </TextView>
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="借书记录"
+        android:id="@+id/button2">
+        </Button>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testtext">
+        </TextView>
+</ScrollView>
+    <ListView 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"   
+        android:id="@+id/listview1"
+        android:layoutAnimation="@anim/list_anim_layout"
+        >  
+        </ListView>  
+
+</LinearLayout>
